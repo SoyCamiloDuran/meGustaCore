@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.global{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Posicion */
+.contenido-izq{
+    flex: 1;
+}
+
+.contenido-dcho{
+    flex: 4;
+}
+/* Fin Posicion */
+
+/* Navegacion */
+nav{
+    background-color: #707070;
+    padding: 25px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Fin Navegacion */
+
+/* Perfil */
+.perfil{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+/* Fin Perfil */
+
+/* Contenedores */
+.contenido-dcho h2{
+    margin-bottom: 25px;
+}
+
+.contenedor-1, .contenedor-2, .contenedor-3{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    padding: 30px 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 232, 232);
+    
+}
+
+.contenedor-1 .con-dcho, .contenedor-2 .con-dcho, .contenedor-3 .con-dcho{
+    display: flex;
+    align-items: center;
+}
+
+.con-izq h3, .con-izq h3, .con-izq h3{
+    margin-bottom: 30px;
+}
+
+.con-dcho p, .con-dcho p, .con-dcho p{
+    margin-right: 10px;
+}
+
+.contenedor-1 button, .contenedor-2 button, .contenedor-3 button{
+    background-color: rgb(232, 226, 144);
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenedor-1 button:hover, .contenedor-2 button:hover, .contenedor-3 button:hover{
+    background-color: rgb(184, 178, 104);
+}
+/* Fin Contenedores */
