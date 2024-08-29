@@ -89,7 +89,7 @@ nav a{
 
 .contenedor-1 button, .contenedor-2 button, .contenedor-3 button{
     background-color: rgb(232, 226, 144);
-    padding: 5px 10px;
+    padding: 5px 15px;
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
